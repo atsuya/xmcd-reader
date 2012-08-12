@@ -1,3 +1,5 @@
+var path = require('path');
+
 var helper = require('./support/helper')
   , XmcdReader = require('../lib/xmcd-reader');
 
@@ -7,7 +9,7 @@ describe('Xmcd', function() {
 
   before(function(done) {
     reader = new XmcdReader();
-    reader.parse('./fixtures/example', function(error, data) {
+    reader.parse('test/fixtures/example', function(error, data) {
       if (error) {
         throw error;
       }
