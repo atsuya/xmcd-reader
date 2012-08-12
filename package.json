@@ -1,0 +1,30 @@
+{
+    "name": "xmcd-reader"
+  , "version": "0.0.0"
+  , "author": "Atsuya Takagi <atsuya.takagi@gmail.com>"
+  , "description": "node library for reading xmcd formatted file"
+  , "contributors": [ 
+    ]
+  , "scripts": {
+      , "test": "./node_modules/mocha/bin/mocha `find test -name '*.test.js' -type f`"
+    }
+  , "main": ""
+  , "repository": {
+        "type": "git"
+      , "url": "https://github.com/atsuya/xmcd-reader"
+    }
+  , "keywords": [
+        "xmcd"
+    ]
+  , "dependencies" : {
+    }
+  , "devDependencies": {
+        "mocha": "~1.3.2"
+    }
+  , "bundleDependencies": [
+    ]
+  , "license": "MIT"
+  , "engine": {
+        "node": ">=0.8"
+    }
+}
