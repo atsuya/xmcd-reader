@@ -6,7 +6,7 @@
   , "contributors": [ 
     ]
   , "scripts": {
-      , "test": "./node_modules/mocha/bin/mocha `find test -name '*.test.js' -type f`"
+        "test": "make"
     }
   , "main": ""
   , "repository": {
@@ -16,13 +16,12 @@
   , "keywords": [
         "xmcd"
     ]
-  , "dependencies" : {
+  , "dependencies": {
     }
   , "devDependencies": {
         "mocha": "~1.3.2"
+      , "should": "~1.1.0"
     }
-  , "bundleDependencies": [
-    ]
   , "license": "MIT"
   , "engine": {
         "node": ">=0.8"
