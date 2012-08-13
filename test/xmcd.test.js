@@ -92,4 +92,10 @@ describe('Xmcd', function() {
       xmcd.playOrder().should.eql('');
     });
   });
+
+  describe('#revision', function() {
+    it('returns a revision', function(done) {
+      xmcd.revision().should.eql(1);
+    });
+  });
 });
