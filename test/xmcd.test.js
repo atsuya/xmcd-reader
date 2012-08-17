@@ -90,12 +90,14 @@ describe('Xmcd', function() {
   describe('#playOrder', function() {
     it('returns a play order', function(done) {
       xmcd.playOrder().should.eql('');
+      done();
     });
   });
 
   describe('#revision', function() {
     it('returns a revision', function(done) {
       xmcd.revision().should.eql(1);
+      done();
     });
   });
 });
