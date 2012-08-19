@@ -1,6 +1,6 @@
 {
     "name": "xmcd-reader"
-  , "version": "0.1.0"
+  , "version": "0.1.1"
   , "author": "Atsuya Takagi <atsuya.takagi@gmail.com>"
   , "description": "node library for reading xmcd formatted file"
   , "contributors": [ 
